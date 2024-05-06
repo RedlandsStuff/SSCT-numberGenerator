@@ -7,7 +7,7 @@ body {
 </style>
 <script>
   func Number() {
-let CustomInt = document.getElementById("UserInput").value
+let CustomInt = document.getElementById("UserInput").value;
   }
 </script>
 <html>
@@ -19,23 +19,30 @@ let CustomInt = document.getElementById("UserInput").value
 onclick="document.getElementById('demo').innerHTML = Math.floor(Math.random() *11);">
 Random number from 0-10</button>
 <br>
+  <br>
   <button style="border-color: black;"type="button"
 onclick="document.getElementById('demo').innerHTML = Math.floor(Math.random() * 101);">
 Random number from 0-100</button>
 <br>
+  <br>
   <button style="border-color: black;"type="button"
 onclick="document.getElementById('demo').innerHTML = Math.floor(Math.random() * 1001);">
 Random number from 0-1000</button>
 <br>
+  <br>
   <button style="border-color: black;"type="button"
 onclick="document.getElementById('demo').innerHTML = Math.floor(Math.random() * 100000000000000000);">
 Random number from 0-99999999999999999</button>
 <br>
+  <br>
   <button style="border-color: black;"type="button"
-onclick="document.getElementById('demo').innerHTML = Math.floor(Math.random() * CustomInt);">
-Random number from 0-100</button>
+onclick="document.getElementById('demo').innerHTML = Math.floor(Math.random() * CustomInt);">Custom</button>
+ <br>
+  <br>
 <input id="UserInput" type="text" placeholder="number">
   <button> onclick="Number()"</button>
+<br>
+  <br>
   <h3>number:</h3>
   
 <p id="demo"></p>
